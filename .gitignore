@@ -7,4 +7,9 @@
 # Lock files
 package-lock.json
 
-9
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
