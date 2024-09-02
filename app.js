@@ -1,5 +1,8 @@
 import express, { json } from 'express';
 import connectDB from './config/db.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Import routes using ES module syntax
 import authRoutes from './routes/auth.js';
